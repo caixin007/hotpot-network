@@ -1,0 +1,36 @@
+# files
+data-path="./node_NUM/data"
+genesis-file="./node_NUM/config/genesis.json"
+node-private-key-file="./node_NUM/secrets/key
+
+# gas
+min-gas-price=0
+
+# http&ws access
+rpc-http-cors-origins=["all"]
+
+rpc-http-host="0.0.0.0"
+rpc-http-api=["ETH, "NET", "IBFT", "ADMIN", "DEBUG"]
+rpc-http-enabled=true
+rpc-http-port=854_NUM
+
+rpc-ws-host="0.0.0.0"
+rpc-ws-api=["ETH, "NET", "IBFT", "ADMIN", "DEBUG"]
+rpc-ws-enabled=true
+rpc-ws-port=754_NUM
+
+# node network
+host-allowlist=["*"]
+p2p-port="3030_NUM"
+discovery-enabled=false
+
+# Prometheus
+# metrics-enabled=true
+# metrics-host="0.0.0.0"
+# metrics-port=954_NUM
+
+# Logging
+# "INFO"
+logging="DEBUG"
+revert-reason-enabled=true
+
